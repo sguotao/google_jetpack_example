@@ -25,11 +25,14 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import androidx.paging.PagedList
 import androidx.recyclerview.widget.DividerItemDecoration
 import com.example.android.codelabs.paging.Injection
 import com.example.android.codelabs.paging.R
 import com.example.android.codelabs.paging.model.Repo
-import kotlinx.android.synthetic.main.activity_search_repositories.*
+import kotlinx.android.synthetic.main.activity_search_repositories.emptyList
+import kotlinx.android.synthetic.main.activity_search_repositories.list
+import kotlinx.android.synthetic.main.activity_search_repositories.search_repo
 
 class SearchRepositoriesActivity : AppCompatActivity() {
 
@@ -62,7 +65,7 @@ class SearchRepositoriesActivity : AppCompatActivity() {
 
     private fun initAdapter() {
         list.adapter = adapter
-        viewModel.repos.observe(this, Observer<List<Repo>> {
+        viewModel.repos.observe(this, Observer<PagedList<Repo>> {
             Log.d("Activity", "list: ${it?.size}")
             showEmptyList(it?.size == 0)
             adapter.submitList(it)
