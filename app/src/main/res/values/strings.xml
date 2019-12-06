@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">android_google_example</string>
+    <string name="android_architeture">Android Component</string>
+
+    <!--architeture-->
+    <string name="data_binding">Data Binding</string>
+    <string name="lifecycles">Lifecycles</string>
+    <string name="live_data">Live Data</string>
+    <string name="navigation">Navigation</string>
+    <string name="paging">Paging</string>
+    <string name="room">Room</string>
+    <string name="view_model">View Model</string>
+    <string name="work_manager">Work Manager</string>
+</resources>

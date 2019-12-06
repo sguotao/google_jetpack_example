@@ -1,0 +1,2 @@
+include ':app', ':paging_library'
+rootProject.name='android_google_example'

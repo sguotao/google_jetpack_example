@@ -1,0 +1,30 @@
+# IntelliJ
+*.iml
+/.idea/
+/local.properties
+/.idea/libraries
+/.idea/caches
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# AndroidStudio
+/captures
+
+# Compiled class files
+*.class
+/build
+/out
+
+# Generated files
+bin/
+gen/
+
+# MacOS
+.DS_Store
+
+# Gradle
+.gradle
+
+# Native
+.externalNativeBuild
+.cxx
