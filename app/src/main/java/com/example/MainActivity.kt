@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.android.codelabs.lifecycles.MainLifecycleActivity
 import com.example.android.codelabs.paging.ui.SearchRepositoriesActivity
 import kotlinx.android.synthetic.main.layout_main.arch_data_binding
 import kotlinx.android.synthetic.main.layout_main.arch_lifecycle
@@ -32,9 +33,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(view: View?) {
         when (view?.id) {
-            R.id.arch_lifecycle -> TODO()
-            R.id.arch_live_data -> TODO()
-            R.id.arch_view_model -> TODO()
+            R.id.arch_lifecycle -> startActivity(MainLifecycleActivity::class.java)
+            R.id.arch_live_data -> startActivity(MainLifecycleActivity::class.java)
+            R.id.arch_view_model -> startActivity(MainLifecycleActivity::class.java)
             R.id.arch_room -> TODO()
             R.id.arch_work_manager -> TODO()
             R.id.arch_paging -> startActivity(SearchRepositoriesActivity::class.java)

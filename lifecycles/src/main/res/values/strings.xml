@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">lifecycles</string>
+    <string name="lifecycle_aware_components">Lifecycle-Aware Components</string>
+
+    <string name="add_viewmodel">Add a ViewModel</string>
+    <string name="using_livedata"> Wrap Data Using LiveData</string>
+    <string name="subscribe_lifecycle">Subscribe to Lifecycle Events</string>
+    <string name="share_viewmodel">Share a ViewModel between Fragments</string>
+    <string name="persist_viewmodel">Persist ViewModel state across process recreation</string>
+
+    <string name="seconds">%d seconds elapsed</string>
+    <string name="location">Location</string>
+    <string name="saved_in_vm">Saved in ViewModel: %s</string>
+    <string name="initial_name">No one</string>
+</resources>

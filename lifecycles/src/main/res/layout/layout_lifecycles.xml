@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="24dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lifecycle_aware_components"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/lfc_viewmodel"
+                style="@style/card_item_text"
+                android:text="@string/add_viewmodel" />
+
+            <TextView
+                android:id="@+id/lfc_livedata"
+                style="@style/card_item_text"
+                android:text="@string/using_livedata" />
+
+            <TextView
+                android:id="@+id/lfc_subscribe"
+                style="@style/card_item_text"
+                android:text="@string/subscribe_lifecycle" />
+
+            <TextView
+                android:id="@+id/lfc_share_data"
+                style="@style/card_item_text"
+                android:text="@string/share_viewmodel" />
+
+            <TextView
+                android:id="@+id/lfc_persist"
+                style="@style/card_item_text"
+                android:text="@string/persist_viewmodel" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -88,7 +88,7 @@ class RepoViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     companion object {
         fun create(parent: ViewGroup): RepoViewHolder {
             val view = LayoutInflater.from(parent.context)
-                    .inflate(R.layout.repo_view_item, parent, false)
+                .inflate(R.layout.repo_view_item, parent, false)
             return RepoViewHolder(view)
         }
     }

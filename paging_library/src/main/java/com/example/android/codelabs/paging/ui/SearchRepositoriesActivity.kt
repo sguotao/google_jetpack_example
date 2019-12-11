@@ -45,7 +45,7 @@ class SearchRepositoriesActivity : AppCompatActivity() {
 
         // get the view model
         viewModel = ViewModelProviders.of(this, Injection.provideViewModelFactory(this))
-                .get(SearchRepositoriesViewModel::class.java)
+            .get(SearchRepositoriesViewModel::class.java)
 
         // add dividers between RecyclerView's row items
         val decoration = DividerItemDecoration(this, DividerItemDecoration.VERTICAL)

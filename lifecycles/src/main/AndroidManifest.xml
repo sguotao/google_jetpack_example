@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.codelabs.lifecycles">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application>
+        <activity android:name=".MainLifecycleActivity" />
+        <activity android:name=".ChronoActivity2" />
+        <activity android:name=".ChronoActivity3" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".ShareDataActivity" />
+        <activity android:name=".SavedStateActivity" />
+    </application>
+</manifest>

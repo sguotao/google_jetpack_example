@@ -30,6 +30,7 @@ dependencies {
 
     //architecture components
     implementation project(path: ':paging_library')
+    implementation project(path: ':lifecycles')
 
 
     testImplementation "junit:junit:$junitVersion"
