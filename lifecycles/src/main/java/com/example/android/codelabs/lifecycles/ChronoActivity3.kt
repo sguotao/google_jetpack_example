@@ -14,6 +14,7 @@ class ChronoActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.chrono_activity_3)
+
         mLiveDataTimerViewModel = ViewModelProvider(this).get(LiveDataTimerViewModel::class.java)
         subscribe()
     }
