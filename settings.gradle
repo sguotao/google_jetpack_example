@@ -1,2 +1,2 @@
-include ':app', ':paging_library', ':lifecycles', ':databinding'
+include ':app', ':paging_library', ':lifecycles', ':databinding', ':workmanager'
 rootProject.name='android_google_example'

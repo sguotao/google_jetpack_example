@@ -42,14 +42,21 @@ ext {
     archComponentsVersion = '2.1.0'
     roomVersion = '2.2.2'
     pagingVersion = '2.1.0'
+    workmanagerVersion ='2.2.0'
 
     //retrofit
     retrofitVersion = "2.3.0"
     okhttpLoggingInterceptorVersion = "3.9.0"
 
+    //glide
+    glideVersion='4.9.0'
+
+    //timer
+    timerVersion='4.7.1'
+
     //test
     runnerVersion = '1.1.0-alpha4'
-    rulesVersion = "1.0.1"
+    rulesVersion = "1.1.0"
     junitVersion = "4.12"
     espressoVersion = '3.1.0-beta02'
 }
