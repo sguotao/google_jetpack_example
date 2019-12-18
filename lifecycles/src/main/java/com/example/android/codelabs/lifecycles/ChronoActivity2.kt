@@ -24,7 +24,7 @@ class ChronoActivity2 : AppCompatActivity() {
         } else {
             // Otherwise the ViewModel has been retained, set the chronometer's base to the original
             // starting time.
-            chronometer.base = chronometerViewModel.mStartTime ?: 0
+            chronometer.base = chronometerViewModel.mStartTime
         }
         chronometer.start()
     }
