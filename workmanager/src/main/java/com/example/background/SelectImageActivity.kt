@@ -153,4 +153,5 @@ class SelectImageActivity : AppCompatActivity() {
         filterIntent.putExtra(KEY_IMAGE_URI, imageUri.toString())
         startActivity(filterIntent)
     }
+
 }

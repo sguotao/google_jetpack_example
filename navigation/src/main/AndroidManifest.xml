@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.navigationadvancedsample">
+
+    <application>
+        <activity android:name=".NavigationMainActivity">
+            <!-- This is added to handle a deep link -->
+            <nav-graph android:value="@navigation/list" />
+        </activity>
+    </application>
+</manifest>
