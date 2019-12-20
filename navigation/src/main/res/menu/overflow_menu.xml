@@ -11,8 +11,12 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-</resources>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- TODO Step 9.1 - Add an item for the settings fragment -->
+    <!--<item-->
+        <!--android:id="@+id/settings_dest"-->
+        <!--android:icon="@drawable/ic_settings"-->
+        <!--android:menuCategory="secondary"-->
+        <!--android:title="@string/settings" />-->
+    <!-- TODO END STEP 9.1 -->
+</menu>

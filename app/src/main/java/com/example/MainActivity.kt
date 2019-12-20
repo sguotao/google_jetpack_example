@@ -5,8 +5,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.android.codelabs.lifecycles.MainLifecycleActivity
+import com.example.android.codelabs.navigation.NavigationActivity
 import com.example.android.codelabs.paging.ui.SearchRepositoriesActivity
-import com.example.android.navigationadvancedsample.NavigationMainActivity
 import com.example.background.SelectImageActivity
 import kotlinx.android.synthetic.main.layout_main.arch_data_binding
 import kotlinx.android.synthetic.main.layout_main.arch_lifecycle
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.arch_work_manager -> startActivity(SelectImageActivity::class.java)
             R.id.arch_paging -> startActivity(SearchRepositoriesActivity::class.java)
             R.id.arch_data_binding -> TODO()
-            R.id.arch_navigation -> startActivity(NavigationMainActivity::class.java)
+            R.id.arch_navigation -> startActivity(NavigationActivity::class.java)
         }
     }
 
