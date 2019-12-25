@@ -20,7 +20,7 @@
         <activity android:name=".NavigationActivity">
 
             <!-- TODO STEP 11.2 -->
-            <!--<nav-graph android:value="@navigation/mobile_navigation" />-->
+            <nav-graph android:value="@navigation/mobile_navigation" />
             <!-- TODO END STEP 11.2-->
 
         </activity>

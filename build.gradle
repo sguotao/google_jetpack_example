@@ -34,7 +34,7 @@ task clean(type: Delete) {
 ext {
     //sdk version
     compileSdkVersion = 29
-    minSdkVersion = 16
+    minSdkVersion = 17
     targetSdkVersion = 29
 
     supportLibVersion = '1.1.0'
@@ -51,6 +51,7 @@ ext {
     pagingVersion = '2.1.0'
     workmanagerVersion = '2.2.0'
     navigationVersion = "2.2.0-rc04"
+    archNaviFragmentKtxVersion="1.0.0"
     lifecycleVersion = '2.0.0'
     lifecycleExtensionsVersion = '2.2.0-rc02'
     savedStateVersion = '1.0.0-rc03'

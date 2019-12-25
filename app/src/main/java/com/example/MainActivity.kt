@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.android.codelabs.databinding.ui.SolutionActivity
 import com.example.android.codelabs.lifecycles.MainLifecycleActivity
 import com.example.android.codelabs.navigation.NavigationActivity
 import com.example.android.codelabs.paging.ui.SearchRepositoriesActivity
@@ -41,7 +42,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.arch_room -> TODO()
             R.id.arch_work_manager -> startActivity(SelectImageActivity::class.java)
             R.id.arch_paging -> startActivity(SearchRepositoriesActivity::class.java)
-            R.id.arch_data_binding -> TODO()
+            R.id.arch_data_binding -> startActivity(SolutionActivity::class.java)
             R.id.arch_navigation -> startActivity(NavigationActivity::class.java)
         }
     }

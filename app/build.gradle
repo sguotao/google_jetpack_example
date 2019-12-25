@@ -37,6 +37,7 @@ dependencies {
     implementation project(path: ':lifecycles')
     implementation project(path: ':workmanager')
     implementation project(path: ':navigation')
+    implementation project(path: ':databinding')
 
 
     testImplementation "junit:junit:$junitVersion"

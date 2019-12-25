@@ -1,2 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.codelabs.databinding" />
+    package="com.example.android.codelabs.databinding">
+
+    <application>
+        <activity android:name=".ui.PlainOldActivity" />
+        <activity android:name=".ui.SolutionActivity" />
+    </application>
+</manifest>
