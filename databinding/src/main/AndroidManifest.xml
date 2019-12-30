@@ -3,6 +3,10 @@
 
     <application>
         <activity android:name=".ui.PlainOldActivity" />
+        <activity android:name=".ui.PlainOldActivitySolution2" />
+        <activity android:name=".ui.PlainOldActivitySolution3" />
+        <activity android:name=".ui.PlainOldActivitySolution4" />
+        <activity android:name=".ui.PlainOldActivitySolution5" />
         <activity android:name=".ui.SolutionActivity" />
     </application>
 </manifest>

@@ -48,8 +48,8 @@ class PlainOldActivitySolution2 : AppCompatActivity() {
         val binding: PlainActivitySolution2Binding =
             DataBindingUtil.setContentView(this, R.layout.plain_activity_solution_2)
 
-        binding.name = "Ada"
-        binding.lastName = "Lovelace"
+        binding.name = "Scott"
+        binding.lastName = "Song"
 
         // TODO: Explicitly setting initial values is a bad pattern. We'll fix that later on.
         updateLikes()
